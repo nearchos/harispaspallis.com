@@ -1,0 +1,150 @@
+/*  
+Theme Name: Haris Paspallis' Website Theme
+Theme URI: http://www.harispaspallis.com/main.css
+Version: 1.0
+Author: Nearchos Paspallis (nearchos+removemefromspam@jappee.com)
+Author URI: http://nearchos.jappee.com
+*/
+
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }
+
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {
+    clear: both;
+  }
+  
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+  body {
+    text-align: center;
+  }
+
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  #main-content {
+    overflow: hidden;
+  }
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+
+  /* nearchos: change the #aabbcc values from the following 2 lines to set the page background */
+  address {font-style: normal;} html {
+        background:#000040; /* sets the whole page's background */
+  }
+  body {
+        background:#000040; /* sets the whole page's background */
+  font-family:'Verdana','Helvetica', 'Arial', sans-serif;font-size:0.85em;}
+
+  a {color: #cfcf00;text-decoration:none !important;}
+  a:visited {color:#afaf00;}
+  b, strong {font-weight:bold;}
+  blockquote {border-left:1px solid #ccc;margin:1em 1em;padding-left:1em;font-size:0.9em;}
+  blockquote p {line-height:1.45em;}
+  em {font-style:italic;}
+  h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:1.5em 0 0.5em 0;}
+  h1 {font-size:2.25em;color:#fff;margin:0;}
+  h2 {font-size:1.5em;color:#333;}
+  h3 {font-size:1.3em;}
+  h4 {font-size:1.15em;}
+  h5 {font-size:1em;}
+  h6 {font-size:0.8em;}
+  p, li {color:#ddd;line-height:1.75em;margin:0 0 1.5em 0;}
+  blockquote p, table p, dd p, li p, #header p {margin-bottom:0.1em;}
+  ul, ol {margin:1em 0; padding-left: 1.6em;}
+  li {margin:0.25em 0;}
+  ul li {list-style-type:disc;}
+  ol li {list-style-type:decimal;}
+  table {border:1px solid #ccc;border-width:1px 1px 1px 1px;}
+  table caption {display:block;font-style:italic;white-space:nowrap;margin:0.5em 1em;}
+  table td, table th {padding:0em 0em;text-align:left;vertical-align:top;}
+  table th {font-weight:bold;border-bottom:1px solid #999;}
+  table td {border:1px solid #000040;}
+
+  dl {margin:1em;line-height:1.5em;list-style-type:disc;}
+  dt {font-weight:bold;margin-top:0.5em;}
+  dd {margin-left:2em;}
+
+  #adsense {text-align:center;}
+
+  /* nearchos: change the #aabbcc values from the following 2 lines to set the page background */
+  #container {
+  	padding: 10px 20px 10px 20px; 
+  	border: 1px solid #000040;
+  	background:#000040; /* sets the content background */
+  	margin:0.2em auto;
+  }
+  div.bckgrnd {
+        clear: both;
+        padding-top: 0px;
+        background: #000040; /* sets the content background */
+  }
+
+  tr.grayRowDown {
+        background-image:url("images/graybkgnd.gif");
+        background-repeat:repeat-x;
+        border: 0px;
+  }
+
+  tr.grayRowUp {
+        background-image:url("images/graybkgnd-dwn.gif");
+        background-repeat:repeat-x;
+        border: 0px;
+  }
+
+  #footer {border-top:1px solid #ccc;margin-top:1em;}
+  #header {border-bottom:1px solid #ccc;margin-bottom:0.5em;}
+  #sidebar {font-size:1.0em;}
+  #sidebar :first-child {margin-top:0;}
+  #sidebar-alternate {font-size:1.0em;}
+  #sidebar-alternate :first-child {margin-top:0;}
+  #main-content {background:#fff;}
+  #main-content h2:first-child {margin-top:0;}	
+
+  @media print {
+    html {background:#fff !important;}
+    #container {border-width:0px !important;padding:0 !important;}
+  }
+
+  #threecolumn #main-content .wrapper {padding:0 25px;}
+
+  #twocolumn-left #main-content .wrapper {padding-left:25px;}
+
+  #twocolumn-right #main-content .wrapper {padding-right:25px;}
+
+  #twocolumn-liquid-right #container {margin:1em 1em;}
+  #twocolumn-liquid-right #main-content .wrapper {padding-right:25px;}
+  #twocolumn-liquid-left #container {margin:1em 1em;}
+  #twocolumn-liquid-left #main-content .wrapper {padding-left:25px;}
+
+  #onecolumn #main-content .wrapper {padding-left:0;}
+
+  /* ie5win */
+  @media tty { i{content:"\";/*" "*/}} * html #container { padding: 25px 0px 10px 10px; } /*";}
+  }/* */
